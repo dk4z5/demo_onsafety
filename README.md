@@ -13,6 +13,14 @@ Foi implementado acesso CRUD a classe Pessoa, com acesso aos métodos:
  È necessário especificar o banco de dados padrão, que tem valor ``` testedb ```, e a autenticação.
  Não é necessário inicializar as tabelas, apenas criar e especificar o banco de dados.
  
+ # Compilação
+ Para compilar basta executar o comando:
+ Windows: ``` gradlew.bat build ```
+ Linux: ``` ./gradlew build ```
+ 
+ O arquivo ```jar``` de saída estará localizado no caminho:
+ ``` build/libs/demoproj-0.0.1-SNAPSHOT.jar ```
+ 
  # Considerações
  Foi considerado utilizar constraits de unicidade no CPF, porém não foi incluido.
  A própria API valida e limpa o CPF, também utilizando RegEx.
