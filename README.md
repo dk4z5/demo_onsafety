@@ -25,6 +25,7 @@ Foi implementado acesso CRUD a classe Pessoa, com acesso aos métodos:
  Foi considerado utilizar constraits de unicidade no CPF, porém não foi incluido.
  A própria API valida e limpa o CPF, também utilizando RegEx.
  A data de nascimento deve ser especificada para a API no formato ``` YYYY-mm-dd ```.
+ Foi adotado o uso de DTO's, assim possibilitando a filtragem de dados recebidos e enviados pela API.
  
  # Testes
  Para o teste foi utilizada a ferramenta ``` Postman ``` , e o arquivo de configuração que inclui as requisições está disponível no repositório:
